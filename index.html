@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Memory Game!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Arunan's Cognizance Challenge!</h1>
+
+    <p>
+      Come Test your Memory! Try to beat all 10 levels!
+    </p>
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button class="hidden" id="stopBtn" onclick="stopGame()">Stop</button>
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"><img src="https://cdn.glitch.com/4417b78c-e32c-4103-98a6-11cf3938570f%2Fa-clipart-tree-4.png"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"><img src="https://cdn.glitch.com/4417b78c-e32c-4103-98a6-11cf3938570f%2F328335.png"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"><img src="https://cdn.glitch.com/4417b78c-e32c-4103-98a6-11cf3938570f%2F58469c62cef1014c0b5e47f6.png"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"><img src="https://cdn.glitch.com/4417b78c-e32c-4103-98a6-11cf3938570f%2Fyellow.png"></button>
+    </div>
+    <div id="strikeCounter">
+      <img src= "https://cdn.glitch.com/4417b78c-e32c-4103-98a6-11cf3938570f%2FX.png" id="strike1" class="hidden">
+      <img src= "https://cdn.glitch.com/4417b78c-e32c-4103-98a6-11cf3938570f%2FX.png" id="strike2" class="hidden">
+      <img src= "https://cdn.glitch.com/4417b78c-e32c-4103-98a6-11cf3938570f%2FX.png" id="strike3" class="hidden">
+    </div>
+  </body>
+</html>
