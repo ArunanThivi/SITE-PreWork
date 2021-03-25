@@ -1,16 +1,15 @@
 /* CSS files add styling rules to your content */
 
 body {
-  background-color: lightgrey;
-  color: black;
+  background-color: #708090;
+  color: white;
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
 
 h1 {
   font-family: verdana, arial, sans-serif;
-  color: #DE8500;
-  text-decoration: underline;
+  color: white;
 }
 
 button {

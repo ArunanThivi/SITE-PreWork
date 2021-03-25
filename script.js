@@ -15,8 +15,10 @@ var strikes = 0;
 var clueHoldTime = 1000;
 
 function startGame() {
+  pattern = [];
   progress = 0;
   strikes = 0;
+  clueHoldTime = 1000;
   gamePlaying = true;
   document.getElementById(`strike1`).classList.add("hidden");
   document.getElementById(`strike2`).classList.add("hidden");
