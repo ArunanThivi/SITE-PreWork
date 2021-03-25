@@ -40,7 +40,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](your-link-here)
+
+[Game Win](https://i.imgur.com/5UVY3Dr.gif)
+
+[Game Loss 3 Strikes](https://i.imgur.com/pTAl8sB.gif)
 
 
 ## Reflection Questions
